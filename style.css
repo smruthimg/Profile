@@ -1,21 +1,22 @@
 .header{
 font-family:Helvetica,serif;
 font-weight:600;
-background-color:rgba(100, 101, 140,0.6);
-font-size:20px;
+background:linear-gradient(to top left,rgb(135, 157, 194),rgb(235, 196, 205));
+background-color:rgba(135, 157, 194,0.7);
+font-size:35px;
 color:rgba(2, 0, 0,0.75);
 text-align:center;
 padding:50px;
-border-radius:2%;
-border-width:2px;
+border-radius:0%;
+border-width:1px;
 
 }
 .education{
 width:550px;
 height:150px;
-background-color:rgba(247, 212, 243,0.6);
+background-color:rgba(168, 171, 201,0.2);
 font-size:15px;
-border-radius:2%;
+border-radius:0%;
 text-align:center;
 float:left;
 display: inline-block;
@@ -28,43 +29,69 @@ flex-wrap: wrap;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-
+text-align:left;
 font-family:serif;
 font-weight:300;
-font-size:20px;
+font-size:30px;
 color:rgba(2, 5, 96,0.75);
-background-color:rgba(209, 129, 198,0.6);
-border-radius:2%;
+margin:20px;
 
 
 }
 
 body{
-background-color:rgba(226, 201, 223,0.4);
+background-color:rgba(248, 184, 139,0.2);
+margin:10px;
+justify-content: space-between;
+
+background:linear-gradient(to top left,rgb(135, 157, 194),rgb(235, 196, 205));
 }
 h2{
-background-color:rgba(209, 129, 198,0.6);
-text-align:center;
-border-radius:2%;
+background-color:rgba(168, 171, 201,0.4);
+background:linear-gradient(to top left,rgb(135, 157, 194),rgb(244, 213, 226));
+text-align:left;
+text-height:40px;
+border-radius:0%;
+padding:20px;
+box-shadow: 10px 10px 5px #888888;
 }
 .lang{
-width:410px;
-height:150px;
-background-color:rgba(247, 212, 243,0.6);
+width:400px;
+background-color:rgba(244, 213, 226,0.6);
+background:linear-gradient(to top left,rgb(135, 157, 194),rgb(244, 213, 226));
 font-size:15px;
-border-radius:5%;
 text-align:center;
 display:inline-block;
 float:left;
+justify-content: space-between;
+flex-wrap: wrap;
+box-shadow: 10px 10px 5px #888888;
 
 }
 .subheading-button{
-padding:30px;
+padding:20px;
 color:midnightblue;
-border-radius:2%;
+border-radius:0%;
+background-color:rgba(202, 182, 200,1.0);
+background:linear-gradient(to top left,rgba(244, 213, 226,1),rgba(244, 213, 226,0));
+
+border-width:1px;
+text-align:left;
+
 }
 
 .active{
 color:smokewhite;
-background-color:midnightblue;
+background-color:rgba(235, 196, 205,7.0);
+background:linear-gradient(to top left,rgba(244, 171, 202,1),rgba(244, 213, 226,0));
+box-shadow: 10px 10px 5px #888888;
+
+}
+
+#sub{
+font-size:15px;
+color:rgba(2, 0, 0,0.4);
+
+text-align:center;
+
 }
